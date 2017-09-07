@@ -23,7 +23,7 @@ const bodyParser = require('body-parser');
 const restService = express();
 restService.use(bodyParser.json());
 
-restService.post('/query', function (req, res) {
+restService.post('/action', function (req, res) {
 
     console.log('hook request');
 
